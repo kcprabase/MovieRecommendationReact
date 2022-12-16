@@ -6,7 +6,6 @@ import Welcome from './Welcome';
 function App() {
   return (
     <>
-      <Welcome />
       <Routes>
         <Route path='/' element={<Welcome />} />
       </Routes>

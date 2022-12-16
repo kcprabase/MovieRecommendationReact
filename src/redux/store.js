@@ -9,6 +9,6 @@ export const store = configureStore({
         // auth
         movieReducer: movieReducer,
         userReducer: userReducer,
-        auth: tokenReducer
+        tokenReducer: tokenReducer
     }
 });

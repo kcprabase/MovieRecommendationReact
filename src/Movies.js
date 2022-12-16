@@ -19,6 +19,7 @@ export default function Movies() {
 
     return (
         <div>
+            <h2>Movie Recommendations</h2>
             {
                 moviesState.map(movie => {
                     return <Movie title={movie.title} genre={movie.genre} />
